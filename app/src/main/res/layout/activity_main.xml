@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc99"
+    >
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="30dp"
+        android:text="Edit"
+        android:textSize="30sp"
+        android:background="#99ccff"
+        />
+
+
+
+</RelativeLayout>
